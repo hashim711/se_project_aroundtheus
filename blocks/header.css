@@ -1,0 +1,11 @@
+.header {
+  border-bottom: solid 1px #545454;
+}
+
+.header__image {
+  margin-top: 45px;
+  margin-bottom: 41px;
+}
+.header__image:hover {
+  stroke: blue;
+}

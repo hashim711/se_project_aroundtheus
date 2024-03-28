@@ -1,0 +1,78 @@
+.profile {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  margin-bottom: 51px;
+}
+
+.profile__info {
+  display: grid;
+  grid-template-areas:
+    "title button"
+    "description description";
+  grid-template-columns: minmax(auto, 375px) auto;
+}
+
+.profile__edit-button {
+  background: transparent center no-repeat;
+  height: 24px;
+  width: 24px;
+  grid-area: button;
+  margin: 15px 0 9px 18px;
+  border: solid 1px #ffffff;
+}
+
+.profile__edit-button:hover {
+  border-color: #545454;
+  cursor: url(../images/handCursor.svg), pointer;
+  stroke: #545454;
+}
+
+.profile__add-button {
+  background: transparent center no-repeat;
+  width: 150px;
+  height: 50px;
+  margin-left: auto;
+  border: solid 2px #ffffff;
+}
+
+.profile__add-button:hover {
+  border-color: #545454;
+  cursor: url(../images/handCursor.svg), pointer;
+  stroke: #545454;
+}
+
+.profile__title {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 1.2;
+  grid-area: title;
+  margin: 0;
+  max-width: 375px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.profile__description {
+  grid-area: description;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.2;
+  margin-top: 7px;
+  max-width: 375px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.profile__image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-position: center;
+  margin-right: 30px;
+}
