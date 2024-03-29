@@ -76,3 +76,65 @@
   background-position: center;
   margin-right: 30px;
 }
+
+@media screen and (max-width: 775px) {
+  .profile__title {
+    font-size: 30px;
+    line-height: 1.2;
+  }
+
+  .profile__description {
+    width: 100%;
+  }
+
+  .profile__add-button {
+    margin: 0;
+    width: 60px;
+    margin: 30px;
+  }
+  .profile__edit-button {
+    margin-top: 7px;
+  }
+
+  .profile__description {
+    margin-top: 0;
+  }
+
+  .profile__info {
+    grid-template-columns: minmax(auto, 275px) auto;
+  }
+}
+
+@media screen and (max-width: 625px) {
+  .profile {
+    flex-direction: column;
+  }
+
+  .profile__info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .profile__title {
+    font-size: 22px;
+    line-height: 1.2;
+  }
+
+  .profile__description {
+    width: 100%;
+    text-align: center;
+  }
+
+  .profile__add-button {
+    margin: 0;
+    width: 282px;
+    margin: 30px 0 30px 0;
+  }
+
+  .profile__edit-button {
+    margin-top: 0;
+  }
+}
