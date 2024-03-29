@@ -16,3 +16,7 @@ Project was created from Figma design. It has different features such as edit, a
 **Project Link**
 
 - [Link to the project](https://hashim711.github.io/se_project_aroundtheus/)
+
+**Video Link**
+
+[Link to the video](https://drive.google.com/file/d/1sNj3Grzwsbr6MkhTRjshunVCx4ZPx3D8/view?usp=drive_link)
