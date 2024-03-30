@@ -1,8 +1,11 @@
 .page {
   background-color: black;
   color: white;
-  padding-left: 10px;
-  padding-right: 10px;
+}
+
+.content {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .page__section {
