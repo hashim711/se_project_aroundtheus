@@ -14,9 +14,7 @@
     width: 126px;
     height: 24px;
     margin: 28px 100px 30px 27px;
-  }
-
-  .header {
-    border-bottom: solid 1px rgb(84 84 84 / 0.7);
+    padding-right: 0px;
+    padding-left: 0px;
   }
 }
