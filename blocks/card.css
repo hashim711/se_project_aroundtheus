@@ -17,7 +17,7 @@
   display: flex;
   background-color: white;
   color: black;
-  padding: 20px 20px;
+  padding: 25px 20px 25px 20px;
   align-items: center;
   justify-content: space-between;
 }
@@ -38,22 +38,11 @@
   background: transparent url(../images/like_inactive.svg) no-repeat;
   width: 21px;
   height: 18px;
-  margin-right: 20px;
+
   border: none;
 }
 
 .card__like-button:hover {
   cursor: pointer;
   opacity: 0.5;
-}
-
-@media screen and (max-width: 625px) {
-  .card__like-button {
-    margin-right: 0;
-  }
-
-  .card__like-button {
-    width: 21px;
-    height: 18px;
-  }
 }
