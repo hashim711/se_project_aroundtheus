@@ -6,7 +6,7 @@
   bottom: 0;
   right: 0;
   z-index: 999;
-  display: flex;
+  display: none;
   padding: 0 19px;
 }
 
@@ -139,4 +139,8 @@
     font-size: 16px;
     line-height: 16.94px;
   }
+}
+
+.modal__opened {
+  display: flex;
 }
