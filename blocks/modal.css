@@ -44,7 +44,6 @@
   margin-bottom: 54px;
   margin-top: 0;
   width: 330px;
-
   font-family: "Inter", Arial, sans-serif;
   font-weight: 900;
   font-size: 24px;
@@ -65,11 +64,11 @@
   padding: 0;
 }
 
-.modal__form-name {
+.modal__form-inputs:first-child {
   margin-bottom: 29.74px;
 }
 
-.modal__form-description {
+.modal__form-inputs:last-child {
   margin-bottom: 48px;
 }
 
@@ -106,25 +105,22 @@
 
   .modal__heading {
     margin-bottom: 75px;
-
     width: 238px;
-
     font-size: 18px;
     line-height: 21.78px;
   }
 
-  .modal__form-name {
-    margin-bottom: 30px;
+  .modal__form-inputs {
     width: 238px;
     height: 27px;
   }
 
-  .modal__form-description {
+  .modal__form-inputs:first-child {
+    margin-bottom: 30px;
+  }
+
+  .modal__form-inputs:last-child {
     margin-bottom: 45px;
-    width: 238px;
-    height: 27px;
-    font-size: 14px;
-    line-height: 16.94px;
   }
 
   .modal__button {
@@ -135,6 +131,6 @@
   }
 }
 
-.modal-opened {
+.modal__opened_focused {
   display: flex;
 }
