@@ -131,6 +131,6 @@
   }
 }
 
-.modal__opened_focused {
+.modal_opened {
   display: flex;
 }
