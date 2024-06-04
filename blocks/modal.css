@@ -31,8 +31,12 @@
   position: absolute;
   top: -45px;
   right: -45px;
-  cursor: pointer;
   padding: 0;
+}
+
+.modal__close:hover {
+  cursor: pointer;
+  background-image: url(../images/hoverClose\ Icon.svg);
 }
 
 .modal__form {
@@ -47,13 +51,13 @@
   font-family: "Inter", Arial, sans-serif;
   font-weight: 900;
   font-size: 24px;
-  line-height: 29.05px;
+
   padding: 0;
 }
 
 .modal__form-inputs {
   width: 358px;
-  height: 27.34px;
+  height: 24.34px;
   border: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   font-family: "Inter", Arial, sans-serif;
@@ -64,11 +68,11 @@
   padding: 0;
 }
 
-.modal__form-inputs:first-child {
+.modal__form-inputs:first-of-type {
   margin-bottom: 29.74px;
 }
 
-.modal__form-inputs:last-child {
+.modal__form-inputs:last-of-type {
   margin-bottom: 48px;
 }
 
@@ -108,6 +112,7 @@
     width: 238px;
     font-size: 18px;
     line-height: 21.78px;
+    height: 22px;
   }
 
   .modal__form-inputs {
@@ -115,11 +120,11 @@
     height: 27px;
   }
 
-  .modal__form-inputs:first-child {
+  .modal__form-inputs:first-of-type {
     margin-bottom: 30px;
   }
 
-  .modal__form-inputs:last-child {
+  .modal__form-inputs:last-of-type {
     margin-bottom: 45px;
   }
 
